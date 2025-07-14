@@ -7,10 +7,10 @@ import matplotlib.pyplot as plt
 # Load the datasets
 
 # demond file 
-df_demond= pd.read_csv("C:\\Users\\USER\\OneDrive\\Desktop\\data anylyst\\real world project\\travel_demand_sample.csv.gpt.csv",encoding='utf-8-sig')
-# recomended file 
+df_demond = pd.read_csv("data/travel_demand.csv", encoding='utf-8-sig')
+# remomende file 
+df = pd.read_csv("data/india_travel.csv", encoding='unicode_escape')
 
-df=pd.read_csv("C:\\Users\\USER\\OneDrive\\Desktop\\data anylyst\\real world project\\india travel details.csv",encoding="unicode_escape")
 
 # clean code 
 
